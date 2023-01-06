@@ -1,0 +1,37 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Arrow",
+    "icon": "Arrow",
+    "type": 1,
+    "tips": "The best arrows in the village"
+  },
+  {
+    "id": 2,
+    "name": "Golden Sword",
+    "icon": "Golden Sword",
+    "type": 1,
+    "tips": "The best sword in the village"
+  },
+  {
+    "id": 3,
+    "name": "Green Apple",
+    "icon": "Green Apple",
+    "type": 2,
+    "tips": "Why not Golden Apple"
+  },
+  {
+    "id": 4,
+    "name": "Red Potion 2",
+    "icon": "Red Potion 2",
+    "type": 2,
+    "tips": "Medicine to restore blood"
+  },
+  {
+    "id": 5,
+    "name": "Blue Potion",
+    "icon": "Blue Potion",
+    "type": 2,
+    "tips": "The medicine to return blue"
+  }
+]
