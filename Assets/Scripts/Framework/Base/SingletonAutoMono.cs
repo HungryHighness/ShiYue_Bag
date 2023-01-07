@@ -29,26 +29,6 @@ namespace Framework.Base
                 return _instance;
             }
         }
-        public static T GetInstance()
-        {
-            if (_instance != null) return _instance;
-            _instance = FindObjectOfType<T>();
-
-            if (_instance != null) return _instance;
-            GameObject go = new GameObject(typeof(T).Name);
-            _instance = go.AddComponent<T>();
-
-            GameObject parent = GameObject.Find("Root");
-            if (parent == null)
-            {
-                parent = new GameObject("Root");
-                DontDestroyOnLoad(parent);
-            }
-
-            go.transform.SetParent(parent.transform);
-
-            return _instance;
-        }
         private void Awake()
         {
             if (_instance == null)
